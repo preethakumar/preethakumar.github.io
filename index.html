@@ -2,15 +2,28 @@
 <html lang="en-US">
 <head>
 <title>Preetha Kumar: My first HTML website!</title>
-<!-- to edit the style of the website with CSS formatting, put things in the style brackets below -->
+<!-- to edit the style of the website with CSS formatting, put things in the style element below -->
 <style>
 
+  #websiteTitle{
+    padding: 10px;
+    margin: 20px;
+    text-align:center;
+    border: 2px solid Tomato;
+    font-family: sans-serif;
+  }
+  p{
+    font-family:verdana;
+  }
+  li.list{
+    font-family: verdana;
+  }
 </style>
 </head>
 <body style = "background-color:BlanchedAlmond;">
 
 <!--Website title below, with center alignment -->
-<h1 title="Preetha Kumar Header" style = "text-align:center; border: 2px solid Tomato;">Preetha Kumar</h1>
+<h1 id="websiteTitle" title="Preetha Kumar Header">Preetha Kumar</h1>
 <p style = "text-align:center; font-size:130%; color:DarkSalmon;"> <i>Welcome to my website!</i></p>
 
 <hr>
@@ -19,10 +32,10 @@
 <p style="color:IndianRed; font-family:verdana;"> I like: </p>
 
 <ul>
-  <li>Singing</li>
-  <li>Playing tennis</li>
-  <li>Cooking and eating food :) </li>
-  <li>Watching Criminal Minds</li>
+  <li class = "list">Singing</li>
+  <li class = "list">Playing tennis</li>
+  <li class = "list">Cooking and eating food :) </li>
+  <li class = "list">Watching Criminal Minds</li>
 </ul>
 <img src = "tennis.jpg" alt="Tennis ball" width="100" height="100">
 <br>
